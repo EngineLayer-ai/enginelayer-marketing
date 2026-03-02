@@ -11,7 +11,7 @@ export default function RequestInvitePage() {
   return (
     <Section title="Request an invite">
       <p className="text-sm text-slate-200">
-        We&apos;re onboarding a small group of construction firms to pressure\u2011test
+        We&apos;re onboarding a small group of construction firms to pressure‑test
         the reconstruction workflow on live projects. Share a bit about your
         team and where change orders and project documentation are most painful.
       </p>
