@@ -4,7 +4,7 @@ import { CTASection } from "@/components/CTASection";
 export const metadata = {
   title: "Construction change order workflow | Reconstruction workflow by EngineLayer",
   description:
-    "See how EngineLayer's Log \u2192 Link \u2192 Retrieve \u2192 Export \u2192 Defend workflow helps construction teams defend change orders with time\u2011stamped, organized project records.",
+    "See how EngineLayer's Log → Link → Retrieve → Export → Defend workflow helps construction teams defend change orders with time‑stamped, organized project records.",
 };
 
 export default function WorkflowPage() {
@@ -12,10 +12,10 @@ export default function WorkflowPage() {
     <>
       <Section title="The Reconstruction Workflow">
         <p>
-          Construction projects generate thousands of data points\u2014issues,
+          Construction projects generate thousands of data points—issues,
           emails, photos, RFIs, change orders, and timecards. EngineLayer turns
-          these into a consistent reconstruction workflow: Log \u2192 Link \u2192
-          Retrieve \u2192 Export \u2192 Defend.
+          these into a consistent reconstruction workflow: Log → Link →
+          Retrieve → Export → Defend.
         </p>
       </Section>
 
@@ -51,14 +51,14 @@ export default function WorkflowPage() {
 
       <Section title="4. Export clean backup for reviews and disputes.">
         <p>
-          EngineLayer can generate structured summaries\u2014such as weekly project
-          summaries and cross\u2011project views for leadership\u2014and save them into
+          EngineLayer can generate structured summaries—such as weekly project
+          summaries and cross‑project views for leadership—and save them into
           your cloud storage. These exports never alter live records; they
-          simply provide clear, time\u2011bound snapshots you can share.
+          simply provide clear, time‑bound snapshots you can share.
         </p>
       </Section>
 
-      <Section title="5. Defend your change orders with time\u2011stamped evidence.">
+      <Section title="5. Defend your change orders with time‑stamped evidence.">
         <p>
           Because issues are logged with precise timestamps, durations, and
           types, and because related files and labor snapshots are linked, you
