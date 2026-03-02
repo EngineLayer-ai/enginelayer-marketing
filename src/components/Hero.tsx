@@ -10,7 +10,7 @@ export function Hero() {
           </h1>
           <p className="text-sm text-slate-200">
             EngineLayer is an execution intelligence layer that turns everyday
-            project activity into organized, auditable records\u2014without asking
+            project activity into organized, auditable records—without asking
             managers to do more work.
           </p>
         </div>
