@@ -35,7 +35,7 @@ export async function POST(req: NextRequest) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: "EngineLayer <noreply@send.enginelayer.ai>",
+        from: "EngineLayer <noreply@enginelayer.ai>",
         to: "ryan.ford@enginelayer.ai",
         subject: `Invite request from ${company || "Unknown"}`,
         text: body,
