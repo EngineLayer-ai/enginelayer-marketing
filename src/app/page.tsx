@@ -83,10 +83,10 @@ export default function HomePage() {
       </Section>
 
       <Section title="Organize what matters most on a project.">
-        <div className="space-y-6">
+        <div className="space-y-8">
           <div>
-            <h3 className="text-sm font-semibold text-slate-50">Issue Log</h3>
-            <p>
+            <h3 className="font-display text-sm font-semibold text-navy-900">Issue Log</h3>
+            <p className="mt-1">
               Capture day‑to‑day issues in a structured log: description,
               duration in half‑hour increments, standardized issue types, and
               links to photos or documents in your cloud storage. Foremen can
@@ -96,10 +96,10 @@ export default function HomePage() {
             </p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-slate-50">
+            <h3 className="font-display text-sm font-semibold text-navy-900">
               Change Order Log
             </h3>
-            <p>
+            <p className="mt-1">
               Maintain a structured view of every change order: internal
               identifiers, type and reason, status, expected and approved
               values, and linked evidence from your files. When it is time to
@@ -109,10 +109,10 @@ export default function HomePage() {
             </p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-slate-50">
+            <h3 className="font-display text-sm font-semibold text-navy-900">
               Labor Snapshots
             </h3>
-            <p>
+            <p className="mt-1">
               Store monthly, append‑only labor snapshots—hours‑to‑date (and
               optionally cost and billing) per project—so managers and owners
               can see labor exposure without risking accidental overwrites or
@@ -120,10 +120,10 @@ export default function HomePage() {
             </p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-slate-50">
+            <h3 className="font-display text-sm font-semibold text-navy-900">
               Project file sharing between office and field
             </h3>
-            <p>
+            <p className="mt-1">
               EngineLayer keeps project records tied to the relevant documents,
               so office and field see the same story. Foremen can open linked
               drawings, RFIs, photos, or reports through the tools they already
@@ -134,10 +134,10 @@ export default function HomePage() {
             </p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-slate-50">
+            <h3 className="font-display text-sm font-semibold text-navy-900">
               Assistant that finds and files the right documents
             </h3>
-            <p>
+            <p className="mt-1">
               EngineLayer&apos;s assistant handles the part of email and paperwork
               that burns the most time: finding the right files, keeping them
               organized, and attaching the correct backup when you need to
@@ -146,10 +146,10 @@ export default function HomePage() {
             </p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-slate-50">
+            <h3 className="font-display text-sm font-semibold text-navy-900">
               Org‑level visibility without a new &quot;BI project.&quot;
             </h3>
-            <p>
+            <p className="mt-1">
               Org Admins have access to an overview that aggregates key project
               signals—such as issue volume, labor snapshots, and change order
               activity—without turning EngineLayer into another reporting
