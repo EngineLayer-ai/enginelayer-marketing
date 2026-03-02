@@ -42,13 +42,14 @@ export async function POST(req: NextRequest) {
       }),
     });
 
+    const resBody = await res.text();
+
     if (!res.ok) {
-      const err = await res.text();
-      console.error("Resend error:", err);
-      return NextResponse.json({ ok: false }, { status: 500 });
+      console.error("Resend error:", resBody);
+      return NextResponse.json({ ok: false, method: "resend_error", detail: resBody }, { status: 500 });
     }
 
-    return NextResponse.json({ ok: true });
+    return NextResponse.json({ ok: true, method: "resend", detail: resBody });
   } catch (error) {
     console.error("API error:", error);
     return NextResponse.json({ ok: false }, { status: 500 });
