@@ -6,7 +6,7 @@ export const metadata = {
   title:
     "Construction project execution software for change orders and issues | EngineLayer",
   description:
-    "EngineLayer organizes construction issues, change orders, labor snapshots, and project files into an auditable record\u2014without adding work for managers.",
+    "EngineLayer organizes construction issues, change orders, labor snapshots, and project files into an auditable record—without adding work for managers.",
 };
 
 export default function HomePage() {
@@ -27,8 +27,8 @@ export default function HomePage() {
             OneDrive, and supports teams standardizing how they use those tools.
           </li>
           <li>
-            Organizes data around the workflows managers already run\u2014logging
-            issues, approving changes, tracking labor\u2014rather than inventing new
+            Organizes data around the workflows managers already run—logging
+            issues, approving changes, tracking labor—rather than inventing new
             processes.
           </li>
           <li>
@@ -51,7 +51,7 @@ export default function HomePage() {
             there to reduce manual work, not to take over judgment or finance.
           </li>
           <li>
-            Not another &quot;all\u2011in\u2011one PM suite&quot; that forces you to abandon tools
+            Not another &quot;all‑in‑one PM suite&quot; that forces you to abandon tools
             that already work.
           </li>
         </ul>
@@ -62,7 +62,7 @@ export default function HomePage() {
           On most projects, managers reconstruct decisions only when a dispute
           or change order forces them to. EngineLayer organizes this information
           as you go, using your existing workflows, so reconstruction becomes a
-          filtered view\u2014not a fire drill.
+          filtered view—not a fire drill.
         </p>
         <ul className="list-disc space-y-2 pl-5">
           <li>
@@ -71,8 +71,8 @@ export default function HomePage() {
             linkages behind the scenes.
           </li>
           <li>
-            Issue logging that replaces ad\u2011hoc field journals with quick,
-            time\u2011stamped entries that are easy for foremen to capture on busy
+            Issue logging that replaces ad‑hoc field journals with quick,
+            time‑stamped entries that are easy for foremen to capture on busy
             days.
           </li>
           <li>
@@ -87,10 +87,10 @@ export default function HomePage() {
           <div>
             <h3 className="text-sm font-semibold text-slate-50">Issue Log</h3>
             <p>
-              Capture day\u2011to\u2011day issues in a structured log: description,
-              duration in half\u2011hour increments, standardized issue types, and
+              Capture day‑to‑day issues in a structured log: description,
+              duration in half‑hour increments, standardized issue types, and
               links to photos or documents in your cloud storage. Foremen can
-              add issues in a few taps\u2014even as quick notes from the field\u2014so it
+              add issues in a few taps—even as quick notes from the field—so it
               feels like a lightweight daily journal instead of a separate
               reporting job.
             </p>
@@ -113,8 +113,8 @@ export default function HomePage() {
               Labor Snapshots
             </h3>
             <p>
-              Store monthly, append\u2011only labor snapshots\u2014hours\u2011to\u2011date (and
-              optionally cost and billing) per project\u2014so managers and owners
+              Store monthly, append‑only labor snapshots—hours‑to‑date (and
+              optionally cost and billing) per project—so managers and owners
               can see labor exposure without risking accidental overwrites or
               hidden adjustments.
             </p>
@@ -147,25 +147,25 @@ export default function HomePage() {
           </div>
           <div>
             <h3 className="text-sm font-semibold text-slate-50">
-              Org\u2011level visibility without a new &quot;BI project.&quot;
+              Org‑level visibility without a new &quot;BI project.&quot;
             </h3>
             <p>
               Org Admins have access to an overview that aggregates key project
-              signals\u2014such as issue volume, labor snapshots, and change order
-              activity\u2014without turning EngineLayer into another reporting
+              signals—such as issue volume, labor snapshots, and change order
+              activity—without turning EngineLayer into another reporting
               project. The goal is to surface the right metrics for steering
               conversations, while keeping all underlying records auditable and
-              append\u2011only.
+              append‑only.
             </p>
           </div>
         </div>
       </Section>
 
-      <Section title="No cross\u2011organization leakage, and project access that matches reality.">
+      <Section title="No cross‑organization leakage, and project access that matches reality.">
         <p>
           EngineLayer is designed so each customer&apos;s data stays strictly
           separated from others, and so people only see the projects that are
-          actually theirs. Organization\u2011level controls let you assign users to
+          actually theirs. Organization‑level controls let you assign users to
           relevant projects, which means field teams don&apos;t see unrelated
           jobs, and office staff can share the latest files with confidence.
         </p>
@@ -175,12 +175,12 @@ export default function HomePage() {
             to a single organization.
           </li>
           <li>
-            Role\u2011based access so Org Admins can see everything, while field and
+            Role‑based access so Org Admins can see everything, while field and
             project staff are limited to the projects they&apos;re assigned to.
           </li>
           <li>
             All critical edits are recorded with who changed what, when, and
-            why\u2014no silent financial changes, and no accidental visibility of the
+            why—no silent financial changes, and no accidental visibility of the
             wrong project.
           </li>
         </ul>
