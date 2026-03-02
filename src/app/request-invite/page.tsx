@@ -10,12 +10,12 @@ export const metadata = {
 export default function RequestInvitePage() {
   return (
     <Section title="Request an invite">
-      <p className="text-sm text-slate-200">
+      <p>
         We&apos;re onboarding a small group of construction firms to pressure‑test
         the reconstruction workflow on live projects. Share a bit about your
         team and where change orders and project documentation are most painful.
       </p>
-      <div className="mt-6">
+      <div className="mt-8">
         <FormRequestInvite />
       </div>
     </Section>
