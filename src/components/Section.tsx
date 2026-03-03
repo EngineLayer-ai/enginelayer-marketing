@@ -15,11 +15,11 @@ export function Section({
       <FadeIn>
         <div className="mx-auto max-w-5xl px-6 py-28">
           {title && (
-            <h2 className="mb-8 font-display text-3xl font-semibold tracking-tight text-navy-900">
+            <h2 className="mb-8 font-display text-4xl font-semibold tracking-tight text-navy-900">
               {title}
             </h2>
           )}
-          <div className="space-y-5 text-[15px] leading-relaxed text-navy-600">
+          <div className="space-y-5 text-base leading-relaxed text-navy-600">
             {children}
           </div>
         </div>
