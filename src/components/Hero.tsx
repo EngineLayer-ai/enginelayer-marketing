@@ -2,9 +2,7 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden border-b border-navy-100 bg-cream-50">
-      <div className="glow-top-right" />
-      <div className="glow-bottom-left" />
+    <section className="relative overflow-hidden bg-cream-50">
       <div className="relative mx-auto flex max-w-5xl flex-col gap-12 px-6 py-36">
         <div className="max-w-2xl space-y-8">
           <h1 className="font-display text-5xl font-bold tracking-tight text-navy-900 sm:text-6xl">
