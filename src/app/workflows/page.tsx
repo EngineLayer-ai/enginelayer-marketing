@@ -4,47 +4,8 @@ import { FadeIn } from "@/components/FadeIn";
 export const metadata = {
   title: "Workflows | EngineLayer",
   description:
-    "EngineLayer supports multiple workflows across the life of a construction project\u2014from issue logging and change order reconstruction to document ingestion, vendor commitments, workforce visibility, and org-level oversight.",
+    "EngineLayer supports multiple workflows across the life of a construction project, from issue logging and change order reconstruction to document ingestion, vendor commitments, workforce visibility, and org-level oversight.",
 };
-
-const workflows = [
-  {
-    id: "co-reconstruction",
-    title: "Change Order Reconstruction",
-    description:
-      "Shows how EngineLayer keeps the story behind each change order intact\u2014from the first field issue through linked documents, labor snapshots, and final approvals\u2014so you can defend extra work with an auditable trail instead of rebuilding it from memory.",
-  },
-  {
-    id: "issue-log",
-    title: "Issue Logging & Daily Record",
-    description:
-      "Captures delays, disruptions, and site events as a lightweight daily record with standardized types, durations in 0.5\u2011hour increments, timestamps, and linked photos/docs\u2014replacing inconsistent foreman journals with a structured, project\u2011level issue log.",
-  },
-  {
-    id: "document-ingestion",
-    title: "Document Ingestion & File Organization",
-    description:
-      "Ingests drawings and project documents via the assistant or direct upload, files them into your connected cloud storage (Drive, Dropbox, or OneDrive), and associates them deterministically with the right projects, so RFIs, POs, reports, and other files land in predictable places and stay tied to the records they support.",
-  },
-  {
-    id: "vendor-commitments",
-    title: "Vendor PO / Subcontract Commitments",
-    description:
-      "Tracks vendor POs, subcontract commitments, and their associated documents as append\u2011only entries per project, with clear amounts, dates, references, and corrections, giving PMs and owners a simple, auditable view of committed spend without turning EngineLayer into an accounting system.",
-  },
-  {
-    id: "workforce",
-    title: "Workforce Visibility & Labor Context",
-    description:
-      "Provides a minimal workforce view by recording planned and historical headcount by role per project, alongside monthly labor snapshots, so you can see how crews and roles have shifted over time without touching payroll or financial calculations.",
-  },
-  {
-    id: "org-admin",
-    title: "Org Admin Overview & Weekly Summaries",
-    description:
-      "Gives Org Admins an internal overview of issues, labor snapshots, and change order activity across projects, plus weekly PDF summaries saved to your drive, so leadership can steer conversations using consistent signals while leaving all underlying records append\u2011only and auditable.",
-  },
-];
 
 export default function WorkflowsPage() {
   return (
@@ -64,24 +25,105 @@ export default function WorkflowsPage() {
         </div>
       </section>
 
-      {workflows.map((wf, i) => (
-        <section
-          key={wf.id}
-          id={wf.id}
-          className={`border-b border-navy-100 ${i % 2 === 1 ? "bg-section-alt" : ""}`}
-        >
-          <FadeIn>
-            <div className="mx-auto max-w-5xl px-6 py-28">
-              <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
-                {wf.title}
-              </h2>
-              <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
-                {wf.description}
-              </p>
-            </div>
-          </FadeIn>
-        </section>
-      ))}
+      <section id="co-reconstruction" className="border-b border-navy-100">
+        <FadeIn>
+          <div className="mx-auto max-w-5xl px-6 py-28">
+            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+              Change Order Reconstruction
+            </h2>
+            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+              Shows how EngineLayer keeps the story behind each change order
+              intact&#8212;from the first field issue through linked documents, labor
+              snapshots, and final approvals&#8212;so you can defend extra work with
+              an auditable trail instead of rebuilding it from memory.
+            </p>
+          </div>
+        </FadeIn>
+      </section>
+
+      <section id="issue-log" className="border-b border-navy-100 bg-section-alt">
+        <FadeIn>
+          <div className="mx-auto max-w-5xl px-6 py-28">
+            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+              Issue Logging &amp; Daily Record
+            </h2>
+            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+              Captures delays, disruptions, and site events as a lightweight
+              daily record with standardized types, durations in 0.5&#8209;hour
+              increments, timestamps, and linked photos/docs&#8212;replacing
+              inconsistent foreman journals with a structured,
+              project&#8209;level issue log.
+            </p>
+          </div>
+        </FadeIn>
+      </section>
+
+      <section id="document-ingestion" className="border-b border-navy-100">
+        <FadeIn>
+          <div className="mx-auto max-w-5xl px-6 py-28">
+            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+              Document Ingestion &amp; File Organization
+            </h2>
+            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+              Ingests drawings and project documents via the assistant or direct
+              upload, files them into your connected cloud storage (Drive,
+              Dropbox, or OneDrive), and associates them deterministically with
+              the right projects, so RFIs, POs, reports, and other files land in
+              predictable places and stay tied to the records they support.
+            </p>
+          </div>
+        </FadeIn>
+      </section>
+
+      <section id="vendor-commitments" className="border-b border-navy-100 bg-section-alt">
+        <FadeIn>
+          <div className="mx-auto max-w-5xl px-6 py-28">
+            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+              Vendor PO / Subcontract Commitments
+            </h2>
+            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+              Tracks vendor POs, subcontract commitments, and their associated
+              documents as append&#8209;only entries per project, with clear amounts,
+              dates, references, and corrections, giving PMs and owners a
+              simple, auditable view of committed spend without turning
+              EngineLayer into an accounting system.
+            </p>
+          </div>
+        </FadeIn>
+      </section>
+
+      <section id="workforce" className="border-b border-navy-100">
+        <FadeIn>
+          <div className="mx-auto max-w-5xl px-6 py-28">
+            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+              Workforce Visibility &amp; Labor Context
+            </h2>
+            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+              Provides a minimal workforce view by recording planned and
+              historical headcount by role per project, alongside monthly labor
+              snapshots, so you can see how crews and roles have shifted over
+              time without touching payroll or financial calculations.
+            </p>
+          </div>
+        </FadeIn>
+      </section>
+
+      <section id="org-admin" className="border-b border-navy-100 bg-section-alt">
+        <FadeIn>
+          <div className="mx-auto max-w-5xl px-6 py-28">
+            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+              Org Admin Overview &amp; Weekly Summaries
+            </h2>
+            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+              Gives Org Admins an internal overview of issues, labor snapshots,
+              and change order activity across projects, plus weekly PDF
+              summaries saved to your drive, so leadership can steer
+              conversations using consistent signals while leaving all
+              underlying records append&#8209;only and auditable.
+            </p>
+          </div>
+        </FadeIn>
+      </section>
 
       <CTASection />
     </>
