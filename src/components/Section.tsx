@@ -5,18 +5,13 @@ export function Section({
   id,
   title,
   children,
-  alt = false,
 }: {
   id?: string;
   title?: string;
   children: ReactNode;
-  alt?: boolean;
 }) {
   return (
-    <section
-      id={id}
-      className={alt ? "bg-section-alt" : ""}
-    >
+    <section id={id}>
       <FadeIn>
         <div className="mx-auto max-w-5xl px-6 py-28">
           {title && (
