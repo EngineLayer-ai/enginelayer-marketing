@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   right: -200px;
   width: 1000px;
   height: 1000px;
-  background: radial-gradient(circle, rgba(58,86,144,0.35) 0%, rgba(58,86,144,0.15) 40%, transparent 70%);
+  background: radial-gradient(circle, rgba(58,86,144,0.22) 0%, rgba(58,86,144,0.09) 40%, transparent 70%);
 }
 
 .bg-glow-inner::after {
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   left: -200px;
   width: 900px;
   height: 900px;
-  background: radial-gradient(circle, rgba(87,112,163,0.30) 0%, rgba(87,112,163,0.12) 40%, transparent 70%);
+  background: radial-gradient(circle, rgba(87,112,163,0.20) 0%, rgba(87,112,163,0.08) 40%, transparent 70%);
 }
 
 /* Center glow */
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 1200px;
   height: 800px;
   border-radius: 50%;
-  background: radial-gradient(ellipse, rgba(58,86,144,0.18) 0%, rgba(87,112,163,0.06) 50%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(58,86,144,0.12) 0%, rgba(87,112,163,0.04) 50%, transparent 70%);
   filter: blur(60px);
   pointer-events: none;
   z-index: 0;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 800px;
   height: 600px;
   border-radius: 50%;
-  background: radial-gradient(ellipse, rgba(87,112,163,0.22) 0%, rgba(58,86,144,0.08) 50%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(87,112,163,0.14) 0%, rgba(58,86,144,0.05) 50%, transparent 70%);
   filter: blur(80px);
   pointer-events: none;
   z-index: 0;
