@@ -4,10 +4,9 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// Read 8 base64 parts and concatenate
 let b64 = "";
-for (let i = 1; i <= 8; i++) {
-  const part = readFileSync(resolve(__dirname, `logo_p${i}.txt`), "utf-8").trim();
+for (let i = 1; i <= 16; i++) {
+  const part = readFileSync(resolve(__dirname, `logo_s${i}.txt`), "utf-8").trim();
   b64 += part;
 }
 
