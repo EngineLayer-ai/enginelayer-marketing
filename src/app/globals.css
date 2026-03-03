@@ -34,39 +34,30 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(90deg, #3a5690 0%, #5770a3 40%, #abb7d1 100%);
 }
 
-/* Soft radial gradient blurs */
-.glow-top-right {
-  position: absolute;
-  top: -120px;
-  right: -80px;
-  width: 600px;
-  height: 600px;
+/* Consistent background gradient blurs */
+.bg-glow::before,
+.bg-glow::after {
+  content: '';
+  position: fixed;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(58,86,144,0.15) 0%, transparent 70%);
   pointer-events: none;
+  z-index: 0;
 }
 
-.glow-bottom-left {
-  position: absolute;
-  bottom: -100px;
-  left: -60px;
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(87,112,163,0.12) 0%, transparent 70%);
-  pointer-events: none;
+.bg-glow::before {
+  top: -200px;
+  right: -150px;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(58,86,144,0.12) 0%, transparent 70%);
 }
 
-/* Subtle background pattern — fine diagonal lines */
-.bg-pattern {
-  background-image:
-    repeating-linear-gradient(
-      135deg,
-      transparent,
-      transparent 40px,
-      rgba(58,86,144,0.03) 40px,
-      rgba(58,86,144,0.03) 41px
-    );
+.bg-glow::after {
+  bottom: -200px;
+  left: -150px;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(87,112,163,0.09) 0%, transparent 70%);
 }
 
 /* Alternating section background for visual rhythm */
