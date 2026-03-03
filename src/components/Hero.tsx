@@ -5,10 +5,10 @@ export function Hero() {
     <section className="relative overflow-hidden">
       <div className="relative mx-auto flex max-w-5xl flex-col gap-12 px-6 py-36">
         <div className="max-w-2xl space-y-8">
-          <h1 className="font-display text-5xl font-bold tracking-tight text-navy-900 sm:text-6xl">
+          <h1 className="font-display text-6xl font-bold tracking-tight text-navy-900 sm:text-7xl">
             Bring order to project chaos.
           </h1>
-          <p className="text-lg leading-relaxed text-navy-600">
+          <p className="text-xl leading-relaxed text-navy-600">
             EngineLayer is an execution intelligence layer that turns everyday
             project activity into organized, auditable records&#8212;without asking
             managers to do more work.
@@ -17,13 +17,13 @@ export function Hero() {
         <div className="flex flex-wrap items-center gap-4">
           <Link
             href="/request-invite"
-            className="rounded-md bg-navy-800 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-navy-700"
+            className="rounded-md bg-navy-800 px-6 py-3 text-base font-medium text-white transition-colors hover:bg-navy-700"
           >
             Request an invite
           </Link>
           <Link
             href="/workflows"
-            className="rounded-md border border-navy-200 px-6 py-3 text-sm font-medium text-navy-700 transition-colors hover:border-navy-300 hover:bg-cream-100"
+            className="rounded-md border border-navy-200 px-6 py-3 text-base font-medium text-navy-700 transition-colors hover:border-navy-300 hover:bg-cream-100"
           >
             Explore workflows
           </Link>
