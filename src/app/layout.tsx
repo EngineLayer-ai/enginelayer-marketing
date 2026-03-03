@@ -18,6 +18,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-cream-50 bg-glow text-navy-800">
         <div className="bg-glow-inner" />
         <div className="bg-glow-center" />
+        <div className="bg-glow-extra" />
         <div className="relative z-10">
           <Layout>{children}</Layout>
         </div>
