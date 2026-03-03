@@ -1,7 +1,14 @@
+import Image from "next/image";
+
 export function Logo() {
   return (
-    <span className="font-display text-lg font-bold tracking-tight text-navy-900">
-      Engine<span className="text-navy-500">Layer</span>
-    </span>
+    <Image
+      src="/logo.png"
+      alt="EngineLayer"
+      width={2194}
+      height={827}
+      className="h-10 w-auto"
+      priority
+    />
   );
 }
