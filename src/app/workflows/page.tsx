@@ -41,7 +41,7 @@ export default function WorkflowsPage() {
         </FadeIn>
       </section>
 
-      <section id="issue-log" className="bg-section-alt">
+      <section id="issue-log">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
             <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
@@ -75,7 +75,7 @@ export default function WorkflowsPage() {
         </FadeIn>
       </section>
 
-      <section id="vendor-commitments" className="bg-section-alt">
+      <section id="vendor-commitments">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
             <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
@@ -108,7 +108,7 @@ export default function WorkflowsPage() {
         </FadeIn>
       </section>
 
-      <section id="org-admin" className="bg-section-alt">
+      <section id="org-admin">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
             <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
