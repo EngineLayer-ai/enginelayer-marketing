@@ -1,10 +1,11 @@
 import { Hero } from "@/components/Hero";
 import { Section } from "@/components/Section";
 import { CTASection } from "@/components/CTASection";
+import { ModulesGrid } from "@/components/ModulesGrid";
 
 export const metadata = {
   title:
-    "Construction project execution software for change orders and issues | EngineLayer",
+    "Construction project execution software | EngineLayer",
   description:
     "EngineLayer organizes construction issues, change orders, labor snapshots, and project files into an auditable record—without adding work for managers.",
 };
@@ -37,6 +38,8 @@ export default function HomePage() {
           </li>
         </ul>
       </Section>
+
+      <ModulesGrid />
 
       <Section title="Built for projects, not hype.">
         <p>
