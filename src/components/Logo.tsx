@@ -5,8 +5,8 @@ export function Logo() {
     <Image
       src="/logo.png"
       alt="EngineLayer"
-      width={2194}
-      height={827}
+      width={800}
+      height={301}
       className="h-10 w-auto"
       priority
     />
