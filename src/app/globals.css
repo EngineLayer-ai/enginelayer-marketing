@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gradient accent line under header */
 .header-accent {
-  height: 2px;
+  height: 4px;
   background: linear-gradient(90deg, #3a5690 0%, #5770a3 40%, #abb7d1 100%);
 }
 
@@ -39,10 +39,10 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: -120px;
   right: -80px;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(58,86,144,0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(58,86,144,0.15) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -50,9 +50,26 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   bottom: -100px;
   left: -60px;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(87,112,163,0.05) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(87,112,163,0.12) 0%, transparent 70%);
   pointer-events: none;
+}
+
+/* Subtle background pattern — fine diagonal lines */
+.bg-pattern {
+  background-image:
+    repeating-linear-gradient(
+      135deg,
+      transparent,
+      transparent 40px,
+      rgba(58,86,144,0.03) 40px,
+      rgba(58,86,144,0.03) 41px
+    );
+}
+
+/* Alternating section background for visual rhythm */
+.bg-section-alt {
+  background-color: rgba(255,255,255,0.45);
 }
