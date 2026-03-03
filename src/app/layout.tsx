@@ -16,7 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen bg-cream-50 bg-glow text-navy-800">
-        <Layout>{children}</Layout>
+        <div className="bg-glow-inner" />
+        <div className="bg-glow-center" />
+        <div className="relative z-10">
+          <Layout>{children}</Layout>
+        </div>
       </body>
     </html>
   );
