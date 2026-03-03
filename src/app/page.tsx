@@ -6,7 +6,7 @@ export const metadata = {
   title:
     "Construction project execution software | EngineLayer",
   description:
-    "EngineLayer organizes construction issues, change orders, labor snapshots, and project files into an auditable record\u2014without adding work for managers.",
+    "EngineLayer organizes construction issues, change orders, labor snapshots, and project files into an auditable record without adding work for managers.",
 };
 
 export default function HomePage() {
