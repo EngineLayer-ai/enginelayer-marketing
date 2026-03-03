@@ -49,6 +49,14 @@ export function FormRequestInvite() {
           <input name="role" required className={inputClasses} />
         </label>
         <label className="text-xs font-medium text-navy-700">
+          Email address
+          <input name="email" type="email" required className={inputClasses} />
+        </label>
+        <label className="text-xs font-medium text-navy-700">
+          Phone number
+          <input name="phone" type="tel" required className={inputClasses} />
+        </label>
+        <label className="text-xs font-medium text-navy-700">
           Primary trade
           <input name="trade" required className={inputClasses} />
         </label>
@@ -57,8 +65,8 @@ export function FormRequestInvite() {
           <select name="revenue" className={inputClasses}>
             <option value="">Select range</option>
             <option value="lt3">Under $3M</option>
-            <option value="3-10">$3M–10M</option>
-            <option value="10-40">$10M–40M</option>
+            <option value="3-10">$3M–$10M</option>
+            <option value="10-40">$10M–$40M</option>
             <option value="gt40">Over $40M</option>
           </select>
         </label>
