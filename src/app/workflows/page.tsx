@@ -1,4 +1,5 @@
 import { CTASection } from "@/components/CTASection";
+import { FadeIn } from "@/components/FadeIn";
 
 export const metadata = {
   title: "Workflows | EngineLayer",
@@ -49,11 +50,11 @@ export default function WorkflowsPage() {
   return (
     <>
       <section className="border-b border-navy-100">
-        <div className="mx-auto max-w-5xl px-6 py-14">
-          <h1 className="font-display text-3xl font-bold tracking-tight text-navy-900 sm:text-4xl">
+        <div className="mx-auto max-w-5xl px-6 py-20">
+          <h1 className="font-display text-4xl font-bold tracking-tight text-navy-900 sm:text-5xl">
             Workflows
           </h1>
-          <p className="mt-4 max-w-3xl text-[15px] leading-relaxed text-navy-600">
+          <p className="mt-5 max-w-3xl text-base leading-relaxed text-navy-600">
             EngineLayer supports multiple workflows across the life of a
             project. Change Order Reconstruction is a flagship use case, but the
             same execution layer also powers structured issue logging, document
@@ -65,14 +66,16 @@ export default function WorkflowsPage() {
 
       {workflows.map((wf) => (
         <section key={wf.id} id={wf.id} className="border-b border-navy-100">
-          <div className="mx-auto max-w-5xl px-6 py-14">
-            <h2 className="mb-4 font-display text-xl font-semibold tracking-tight text-navy-900">
-              {wf.title}
-            </h2>
-            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
-              {wf.description}
-            </p>
-          </div>
+          <FadeIn>
+            <div className="mx-auto max-w-5xl px-6 py-20">
+              <h2 className="mb-5 font-display text-2xl font-semibold tracking-tight text-navy-900">
+                {wf.title}
+              </h2>
+              <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+                {wf.description}
+              </p>
+            </div>
+          </FadeIn>
         </section>
       ))}
 
