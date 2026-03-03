@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { Layout } from "@/components/Layout";
 
 export const metadata: Metadata = {
-  title: "EngineLayer \u2013 Construction project execution software",
+  title: "EngineLayer - Construction project execution software",
   description:
-    "EngineLayer organizes construction issues, change orders, labor snapshots, and project files into an auditable record\u2014without adding work for managers.",
+    "EngineLayer organizes construction issues, change orders, labor snapshots, and project files into an auditable record without adding work for managers.",
 };
 
 export default function RootLayout({
