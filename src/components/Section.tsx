@@ -15,7 +15,7 @@ export function Section({
   return (
     <section
       id={id}
-      className={`border-b border-navy-100 ${alt ? "bg-section-alt" : ""}`}
+      className={alt ? "bg-section-alt" : ""}
     >
       <FadeIn>
         <div className="mx-auto max-w-5xl px-6 py-28">
