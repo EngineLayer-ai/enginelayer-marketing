@@ -10,7 +10,7 @@ export const metadata = {
 export default function WorkflowsPage() {
   return (
     <>
-      <section className="border-b border-navy-100">
+      <section>
         <div className="mx-auto max-w-5xl px-6 py-28">
           <h1 className="font-display text-4xl font-bold tracking-tight text-navy-900 sm:text-5xl">
             Workflows
@@ -25,7 +25,7 @@ export default function WorkflowsPage() {
         </div>
       </section>
 
-      <section id="co-reconstruction" className="border-b border-navy-100">
+      <section id="co-reconstruction">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
             <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
@@ -41,7 +41,7 @@ export default function WorkflowsPage() {
         </FadeIn>
       </section>
 
-      <section id="issue-log" className="border-b border-navy-100 bg-section-alt">
+      <section id="issue-log" className="bg-section-alt">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
             <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
@@ -58,7 +58,7 @@ export default function WorkflowsPage() {
         </FadeIn>
       </section>
 
-      <section id="document-ingestion" className="border-b border-navy-100">
+      <section id="document-ingestion">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
             <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
@@ -75,7 +75,7 @@ export default function WorkflowsPage() {
         </FadeIn>
       </section>
 
-      <section id="vendor-commitments" className="border-b border-navy-100 bg-section-alt">
+      <section id="vendor-commitments" className="bg-section-alt">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
             <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
@@ -92,7 +92,7 @@ export default function WorkflowsPage() {
         </FadeIn>
       </section>
 
-      <section id="workforce" className="border-b border-navy-100">
+      <section id="workforce">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
             <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
@@ -108,7 +108,7 @@ export default function WorkflowsPage() {
         </FadeIn>
       </section>
 
-      <section id="org-admin" className="border-b border-navy-100 bg-section-alt">
+      <section id="org-admin" className="bg-section-alt">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
             <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
