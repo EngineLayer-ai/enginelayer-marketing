@@ -22,10 +22,10 @@ export function Hero() {
             Request an invite
           </Link>
           <Link
-            href="/workflow"
+            href="/workflows"
             className="rounded-md border border-navy-200 px-5 py-2.5 text-sm font-medium text-navy-700 transition-colors hover:border-navy-300 hover:bg-cream-100"
           >
-            See the workflow
+            Explore workflows
           </Link>
         </div>
         <p className="text-xs text-navy-400">
