@@ -1,0 +1,9 @@
+import { writeFileSync, mkdirSync } from "fs";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const root = join(__dirname, "..");
+const p = join(root, "src/app/favicon.ico");
+mkdirSync(dirname(p), { recursive: true });
+writeFileSync(p, Buffer.from("AAABAAEAEBAAAAAAIACuAwAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAQhpQ0NQSUNDIFByb2ZpbGUAAHicY2BgPMEABCwGDAy5eSVFQe5OChGRUQrsDxgYgRAMEpOLCxhwA6Cqb9cgai/r4lGHC3CmpBYnA+kPQKxSBLQcaKQIkC2SDmFrgNhJELYNiF1eUlACZAeA2EUhQc5AdgqQrZGOxE5CYicXFIHU9wDZNrk5pckIdzPwpOaFBgNpDiCWYShmCGJwZ3AC+R+iJH8RA4PFVwYG5gkIsaSZDAzbWxkYJG4hxFQWMDDwtzAwbDuPEEOESUFiUSJYiAWImdLSGBg+LWdg4I1kYBC+wMDAFQ0LCBxuUwC7zZ0hHwjTGXIYUoEingx5DMkMekCWEYMBgyGDGQCm1j8/R2zgUAAAAmFJREFUeJxNks9q3mUQhZ+ZeZMGjB+ChkJIqruCigvRFkqhxU3vQawgutBrKFRDicEbULwOS5VGtAuhqxZSa+2qKeazaZFE2zSx8ffNHBfvhzjb+cOZ8xy7fO2OVlZW2X64iwjMoUhM4A5VjpmRmgDQ3MgaeGVpibW1VezEO+/pwcNHoIZk4Im5oMT/y8wAqCoigszk2LFlbPH4OVk4APPPHeH1V4+TdUjzwAWScHcyE/cG3vjl17vs7T8jC1rMzCIlUnJp5SIn33qNFiKHwt2RFZLhBCojWuPCp6usX/uJktNSE6jESNwGFhdm8al6GSQwEYSBAQLE0AfCaciBxN0xFSSYC2FcvvI9j/cPwAKTkSlE48H2IwohJU2C8EbVIWVgAWBs/b7Lz3fvcf3GBqrA5YQ1/vzrMZtbY8wMV9HcnaqBFtFlAxLMzc2xs7PD7Y1bFI0ox2hMCGSBIUTSUOEOWQOuIgAzmI3i4w/P89EH5ykMK+PJ3j+8+/4nyDqVaI0mdVsiAkkUEMBoNM/8aL4bmRABfz+DqglFdEIpmluQlbgZRKMAUyewv58MJcwMSTw9GJAbhiMVpqSVOoGqCVWFTV/Y3Tng6voPjLf/oKrwgJsbd5BBVRL0rLfuujC8b04rM7m/+Rvfrv+I6ElNc0ajEXtPD6AMAY1KsKJU/wUF4MUXnufsmdO8+fYJhPc4l3hyOPDlV1+zeW+Mu9OWlxYZj7eAIroODJiZgdOn3iCnB6XeSGD9u28Y399i4egC/sXa57y8vEwz7xQKpMSspkcnOBOagasTaiRHF17i0mcr/Auh+UPsoYfZoAAAAABJRU5ErkJggg==", "base64"));
+console.log("Created src/app/favicon.ico");
