@@ -85,7 +85,7 @@ export default function HomePage() {
       <Section title="Organize what matters most on a project.">
         <div className="space-y-8">
           <div>
-            <h3 className="font-display text-sm font-semibold text-navy-900">Issue Log</h3>
+            <h3 className="font-display text-base font-semibold text-navy-900">Issue Log</h3>
             <p className="mt-1">
               Capture day&#8209;to&#8209;day issues in a structured log: description,
               duration in half&#8209;hour increments, standardized issue types, and
@@ -96,7 +96,7 @@ export default function HomePage() {
             </p>
           </div>
           <div>
-            <h3 className="font-display text-sm font-semibold text-navy-900">
+            <h3 className="font-display text-base font-semibold text-navy-900">
               Change Order Log
             </h3>
             <p className="mt-1">
@@ -109,7 +109,7 @@ export default function HomePage() {
             </p>
           </div>
           <div>
-            <h3 className="font-display text-sm font-semibold text-navy-900">
+            <h3 className="font-display text-base font-semibold text-navy-900">
               Labor Snapshots
             </h3>
             <p className="mt-1">
@@ -120,7 +120,7 @@ export default function HomePage() {
             </p>
           </div>
           <div>
-            <h3 className="font-display text-sm font-semibold text-navy-900">
+            <h3 className="font-display text-base font-semibold text-navy-900">
               Project file sharing between office and field
             </h3>
             <p className="mt-1">
@@ -134,7 +134,7 @@ export default function HomePage() {
             </p>
           </div>
           <div>
-            <h3 className="font-display text-sm font-semibold text-navy-900">
+            <h3 className="font-display text-base font-semibold text-navy-900">
               Assistant that finds and files the right documents
             </h3>
             <p className="mt-1">
@@ -146,7 +146,7 @@ export default function HomePage() {
             </p>
           </div>
           <div>
-            <h3 className="font-display text-sm font-semibold text-navy-900">
+            <h3 className="font-display text-base font-semibold text-navy-900">
               Org&#8209;level visibility without a new &quot;BI project.&quot;
             </h3>
             <p className="mt-1">
