@@ -38,7 +38,7 @@ export default function HomePage() {
         </ul>
       </Section>
 
-      <Section title="Built for projects, not hype." alt>
+      <Section title="Built for projects, not hype.">
         <p>
           EngineLayer is intentionally conservative about what it promises. It
           focuses on making your project record defensible and searchable, not
@@ -82,7 +82,7 @@ export default function HomePage() {
         </ul>
       </Section>
 
-      <Section title="Organize what matters most on a project." alt>
+      <Section title="Organize what matters most on a project.">
         <div className="space-y-8">
           <div>
             <h3 className="font-display text-sm font-semibold text-navy-900">Issue Log</h3>
