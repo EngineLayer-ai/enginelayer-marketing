@@ -1,13 +1,19 @@
 import { readFileSync, writeFileSync, mkdirSync } from "fs";
-import { dirname, join } from "path";
+import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const root = join(__dirname, "..");
-const p1 = readFileSync(join(__dirname, "logo_part1.txt"), "utf8").trim();
-const p2 = readFileSync(join(__dirname, "logo_part2.txt"), "utf8").trim();
-const p3 = readFileSync(join(__dirname, "logo_part3.txt"), "utf8").trim();
-const p4 = readFileSync(join(__dirname, "logo_part4.txt"), "utf8").trim();
-const p = join(root, "public/logo.png");
-mkdirSync(dirname(p), { recursive: true });
-writeFileSync(p, Buffer.from(p1 + p2 + p3 + p4, "base64"));
-console.log("Created public/logo.png");
+
+// Read 8 base64 parts and concatenate
+let b64 = "";
+for (let i = 1; i <= 8; i++) {
+  const part = readFileSync(resolve(__dirname, `logo_p${i}.txt`), "utf-8").trim();
+  b64 += part;
+}
+
+const buf = Buffer.from(b64, "base64");
+const outDir = resolve(__dirname, "..", "public");
+mkdirSync(outDir, { recursive: true });
+const outPath = resolve(outDir, "logo.png");
+writeFileSync(outPath, buf);
+console.log(`Wrote ${buf.length} bytes to ${outPath}`);
