@@ -3,9 +3,7 @@ import { FadeIn } from "./FadeIn";
 
 export function CTASection() {
   return (
-    <section className="relative overflow-hidden">
-      <div className="glow-top-right" />
-      <div className="glow-bottom-left" />
+    <section>
       <FadeIn>
         <div className="mx-auto max-w-5xl px-6 py-28">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
