@@ -2,13 +2,15 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section className="border-b border-navy-100 bg-cream-50">
-      <div className="mx-auto flex max-w-5xl flex-col gap-8 px-6 py-20">
-        <div className="max-w-2xl space-y-5">
-          <h1 className="font-display text-4xl font-bold tracking-tight text-navy-900 sm:text-5xl">
+    <section className="relative overflow-hidden border-b border-navy-100 bg-cream-50">
+      <div className="glow-top-right" />
+      <div className="glow-bottom-left" />
+      <div className="relative mx-auto flex max-w-5xl flex-col gap-10 px-6 py-28">
+        <div className="max-w-2xl space-y-6">
+          <h1 className="font-display text-5xl font-bold tracking-tight text-navy-900 sm:text-6xl">
             Bring order to project chaos.
           </h1>
-          <p className="text-[15px] leading-relaxed text-navy-600">
+          <p className="text-base leading-relaxed text-navy-600">
             EngineLayer is an execution intelligence layer that turns everyday
             project activity into organized, auditable records—without asking
             managers to do more work.
