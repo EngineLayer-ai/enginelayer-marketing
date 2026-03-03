@@ -1,0 +1,11 @@
+import { readFileSync, writeFileSync, mkdirSync } from "fs";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const root = join(__dirname, "..");
+const c1 = readFileSync(join(__dirname, "logo_chunk1.txt"), "utf8").trim();
+const c2 = readFileSync(join(__dirname, "logo_chunk2.txt"), "utf8").trim();
+const p = join(root, "public/logo.png");
+mkdirSync(dirname(p), { recursive: true });
+writeFileSync(p, Buffer.from(c1 + c2, "base64"));
+console.log("Created public/logo.png");
