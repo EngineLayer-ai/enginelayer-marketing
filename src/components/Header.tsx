@@ -3,7 +3,7 @@ import { Logo } from "./Logo";
 
 export function Header() {
   return (
-    <header className="border-b border-navy-100 bg-cream-50/90 backdrop-blur">
+    <header className="bg-cream-50/90 backdrop-blur">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center">
           <Logo />
@@ -29,6 +29,7 @@ export function Header() {
           </Link>
         </nav>
       </div>
+      <div className="header-accent" />
     </header>
   );
 }
