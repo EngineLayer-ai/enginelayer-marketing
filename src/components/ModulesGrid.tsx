@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FadeIn } from "./FadeIn";
 
 const modules = [
   {
@@ -42,27 +43,29 @@ const modules = [
 export function ModulesGrid() {
   return (
     <section className="border-b border-navy-100">
-      <div className="mx-auto max-w-5xl px-6 py-14">
-        <h2 className="mb-8 font-display text-xl font-semibold tracking-tight text-navy-900">
-          V1 modules in one execution layer.
-        </h2>
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {modules.map((mod) => (
-            <Link
-              key={mod.title}
-              href={mod.href}
-              className="group rounded-lg border border-navy-100 bg-white p-5 transition-colors hover:border-navy-200 hover:bg-cream-100"
-            >
-              <h3 className="font-display text-sm font-semibold text-navy-900 group-hover:text-navy-700">
-                {mod.title}
-              </h3>
-              <p className="mt-2 text-[13px] leading-relaxed text-navy-500">
-                {mod.description}
-              </p>
-            </Link>
-          ))}
+      <FadeIn>
+        <div className="mx-auto max-w-5xl px-6 py-20">
+          <h2 className="mb-10 font-display text-2xl font-semibold tracking-tight text-navy-900">
+            V1 modules in one execution layer.
+          </h2>
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {modules.map((mod) => (
+              <Link
+                key={mod.title}
+                href={mod.href}
+                className="group rounded-lg border border-navy-100 bg-white p-6 shadow-sm transition-all duration-200 hover:border-navy-200 hover:shadow-md"
+              >
+                <h3 className="font-display text-sm font-semibold text-navy-900 group-hover:text-navy-700">
+                  {mod.title}
+                </h3>
+                <p className="mt-2 text-[13px] leading-relaxed text-navy-500">
+                  {mod.description}
+                </p>
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
+      </FadeIn>
     </section>
   );
 }
