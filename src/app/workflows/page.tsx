@@ -12,10 +12,10 @@ export default function WorkflowsPage() {
     <>
       <section>
         <div className="mx-auto max-w-5xl px-6 py-28">
-          <h1 className="font-display text-4xl font-bold tracking-tight text-navy-900 sm:text-5xl">
+          <h1 className="font-display text-5xl font-bold tracking-tight text-navy-900 sm:text-6xl">
             Workflows
           </h1>
-          <p className="mt-6 max-w-3xl text-lg leading-relaxed text-navy-600">
+          <p className="mt-6 max-w-3xl text-xl leading-relaxed text-navy-600">
             EngineLayer supports multiple workflows across the life of a
             project. Change Order Reconstruction is a flagship use case, but the
             same execution layer also powers structured issue logging, document
@@ -28,10 +28,10 @@ export default function WorkflowsPage() {
       <section id="co-reconstruction">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
-            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+            <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Change Order Reconstruction
             </h2>
-            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+            <p className="max-w-3xl text-base leading-relaxed text-navy-600">
               Shows how EngineLayer keeps the story behind each change order
               intact&#8212;from the first field issue through linked documents, labor
               snapshots, and final approvals&#8212;so you can defend extra work with
@@ -44,10 +44,10 @@ export default function WorkflowsPage() {
       <section id="issue-log">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
-            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+            <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Issue Logging &amp; Daily Record
             </h2>
-            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+            <p className="max-w-3xl text-base leading-relaxed text-navy-600">
               Captures delays, disruptions, and site events as a lightweight
               daily record with standardized types, durations in 0.5&#8209;hour
               increments, timestamps, and linked photos/docs&#8212;replacing
@@ -61,10 +61,10 @@ export default function WorkflowsPage() {
       <section id="document-ingestion">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
-            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+            <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Document Ingestion &amp; File Organization
             </h2>
-            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+            <p className="max-w-3xl text-base leading-relaxed text-navy-600">
               Ingests drawings and project documents via the assistant or direct
               upload, files them into your connected cloud storage (Drive,
               Dropbox, or OneDrive), and associates them deterministically with
@@ -78,10 +78,10 @@ export default function WorkflowsPage() {
       <section id="vendor-commitments">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
-            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+            <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Vendor PO / Subcontract Commitments
             </h2>
-            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+            <p className="max-w-3xl text-base leading-relaxed text-navy-600">
               Tracks vendor POs, subcontract commitments, and their associated
               documents as append&#8209;only entries per project, with clear amounts,
               dates, references, and corrections, giving PMs and owners a
@@ -95,10 +95,10 @@ export default function WorkflowsPage() {
       <section id="workforce">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
-            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+            <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Workforce Visibility &amp; Labor Context
             </h2>
-            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+            <p className="max-w-3xl text-base leading-relaxed text-navy-600">
               Provides a minimal workforce view by recording planned and
               historical headcount by role per project, alongside monthly labor
               snapshots, so you can see how crews and roles have shifted over
@@ -111,10 +111,10 @@ export default function WorkflowsPage() {
       <section id="org-admin">
         <FadeIn>
           <div className="mx-auto max-w-5xl px-6 py-28">
-            <h2 className="mb-6 font-display text-3xl font-semibold tracking-tight text-navy-900">
+            <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Org Admin Overview &amp; Weekly Summaries
             </h2>
-            <p className="max-w-3xl text-[15px] leading-relaxed text-navy-600">
+            <p className="max-w-3xl text-base leading-relaxed text-navy-600">
               Gives Org Admins an internal overview of issues, labor snapshots,
               and change order activity across projects, plus weekly PDF
               summaries saved to your drive, so leadership can steer
