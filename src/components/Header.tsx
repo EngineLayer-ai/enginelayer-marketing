@@ -8,7 +8,7 @@ export function Header() {
         <Link href="/" className="flex items-center">
           <Logo />
         </Link>
-        <nav className="flex items-center gap-8 text-sm">
+        <nav className="flex items-center gap-8 text-base">
           <Link
             href="/"
             className="font-medium text-navy-600 transition-colors hover:text-navy-900"
@@ -23,7 +23,7 @@ export function Header() {
           </Link>
           <Link
             href="/request-invite"
-            className="rounded-md bg-navy-800 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-navy-700"
+            className="rounded-md bg-navy-800 px-4 py-2 text-base font-medium text-white transition-colors hover:bg-navy-700"
           >
             Request invite
           </Link>
