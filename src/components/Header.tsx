@@ -16,10 +16,10 @@ export function Header() {
             Home
           </Link>
           <Link
-            href="/workflow"
+            href="/workflows"
             className="font-medium text-navy-600 transition-colors hover:text-navy-900"
           >
-            Workflow
+            Workflows
           </Link>
           <Link
             href="/request-invite"
