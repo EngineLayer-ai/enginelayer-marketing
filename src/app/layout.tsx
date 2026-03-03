@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { Layout } from "@/components/Layout";
 
 export const metadata: Metadata = {
-  title: "EngineLayer – Construction project execution software",
+  title: "EngineLayer \u2013 Construction project execution software",
   description:
-    "EngineLayer organizes construction issues, change orders, labor snapshots, and project files into an auditable record—without adding work for managers.",
+    "EngineLayer organizes construction issues, change orders, labor snapshots, and project files into an auditable record\u2014without adding work for managers.",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-cream-50 text-navy-800">
+      <body className="min-h-screen bg-cream-50 bg-pattern text-navy-800">
         <Layout>{children}</Layout>
       </body>
     </html>
