@@ -5,21 +5,26 @@ export function Section({
   id,
   title,
   children,
+  alt = false,
 }: {
   id?: string;
   title?: string;
   children: ReactNode;
+  alt?: boolean;
 }) {
   return (
-    <section id={id} className="border-b border-navy-100">
+    <section
+      id={id}
+      className={`border-b border-navy-100 ${alt ? "bg-section-alt" : ""}`}
+    >
       <FadeIn>
-        <div className="mx-auto max-w-5xl px-6 py-20">
+        <div className="mx-auto max-w-5xl px-6 py-28">
           {title && (
-            <h2 className="mb-6 font-display text-2xl font-semibold tracking-tight text-navy-900">
+            <h2 className="mb-8 font-display text-3xl font-semibold tracking-tight text-navy-900">
               {title}
             </h2>
           )}
-          <div className="space-y-4 text-[15px] leading-relaxed text-navy-600">
+          <div className="space-y-5 text-[15px] leading-relaxed text-navy-600">
             {children}
           </div>
         </div>
