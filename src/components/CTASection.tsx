@@ -16,7 +16,7 @@ export function CTASection() {
               <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-navy-600">
                 If defending change orders and tracking disruption is already
                 burning hours, EngineLayer can help turn that chaos into a
-                structured, auditable record without adding another to\u2011do list for
+                structured, auditable record without adding another to&#8209;do list for
                 your PMs.
               </p>
             </div>
