@@ -7,7 +7,7 @@ export function Logo() {
       alt="EngineLayer"
       width={400}
       height={150}
-      className="h-10 w-auto"
+      className="h-14 w-auto"
       priority
     />
   );

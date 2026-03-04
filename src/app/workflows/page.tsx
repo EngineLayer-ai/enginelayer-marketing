@@ -27,7 +27,7 @@ export default function WorkflowsPage() {
 
       <section id="co-reconstruction">
         <FadeIn>
-          <div className="mx-auto max-w-5xl px-6 py-28">
+          <div className="mx-auto max-w-5xl px-6 py-14">
             <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Change Order Reconstruction
             </h2>
@@ -43,7 +43,7 @@ export default function WorkflowsPage() {
 
       <section id="issue-log">
         <FadeIn>
-          <div className="mx-auto max-w-5xl px-6 py-28">
+          <div className="mx-auto max-w-5xl px-6 py-14">
             <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Issue Logging &amp; Daily Record
             </h2>
@@ -60,7 +60,7 @@ export default function WorkflowsPage() {
 
       <section id="document-ingestion">
         <FadeIn>
-          <div className="mx-auto max-w-5xl px-6 py-28">
+          <div className="mx-auto max-w-5xl px-6 py-14">
             <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Document Ingestion &amp; File Organization
             </h2>
@@ -77,7 +77,7 @@ export default function WorkflowsPage() {
 
       <section id="vendor-commitments">
         <FadeIn>
-          <div className="mx-auto max-w-5xl px-6 py-28">
+          <div className="mx-auto max-w-5xl px-6 py-14">
             <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Vendor PO / Subcontract Commitments
             </h2>
@@ -94,7 +94,7 @@ export default function WorkflowsPage() {
 
       <section id="workforce">
         <FadeIn>
-          <div className="mx-auto max-w-5xl px-6 py-28">
+          <div className="mx-auto max-w-5xl px-6 py-14">
             <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Workforce Visibility &amp; Labor Context
             </h2>
@@ -110,7 +110,7 @@ export default function WorkflowsPage() {
 
       <section id="org-admin">
         <FadeIn>
-          <div className="mx-auto max-w-5xl px-6 py-28">
+          <div className="mx-auto max-w-5xl px-6 py-14">
             <h2 className="mb-6 font-display text-4xl font-semibold tracking-tight text-navy-900">
               Org Admin Overview &amp; Weekly Summaries
             </h2>
