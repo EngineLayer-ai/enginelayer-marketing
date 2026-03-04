@@ -6,6 +6,22 @@ export const metadata: Metadata = {
   title: "EngineLayer - Construction project execution software",
   description:
     "EngineLayer organizes construction issues, change orders, labor snapshots, and project files into an auditable record without adding work for managers.",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  openGraph: {
+    title: "EngineLayer - Construction project execution software",
+    description:
+      "EngineLayer organizes construction issues, change orders, labor snapshots, and project files into an auditable record without adding work for managers.",
+    url: "https://enginelayer.ai",
+    siteName: "EngineLayer",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
